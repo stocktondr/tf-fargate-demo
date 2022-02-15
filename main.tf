@@ -2,6 +2,9 @@ provider "aws" {
   region = "us-east-1"
 }
 
+# Adopts default VPC if available
+# If not available, a default VPC is created
+# In either case the default VPC will not be deleted during a terrafrom destroy
 resource "aws_default_vpc" "default_vpc" {
 }
 

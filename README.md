@@ -9,6 +9,7 @@
 ### Requirements:
 
 - terraform CLI
+- AWS Default VPC
 - AWS programmatic access
   - Use bash/zsh terminal command "aws configure" to set up access keys
   - terraform CLI will look for these when planning/applying from your local env
