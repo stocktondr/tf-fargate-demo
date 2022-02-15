@@ -1,5 +1,8 @@
 # Terraform Fargate Web App Demo
 
+- Deploys an ECS Fargate container behind an Application Load Balancer
+- The application is a simple todo list web app
+
 ### Primary Resources
 
 - AWS Application load Balancer
